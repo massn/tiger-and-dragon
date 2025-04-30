@@ -70,7 +70,7 @@ You can import functions from `main.py` into other Python scripts.
 ```python
 # example.py
 import datetime
-from main import stem_from_day, branch_from_day, Stem, Branch, Language
+from tiger_and_dragon import stem_from_day, branch_from_day, Stem, Branch, Language
 
 target_date = datetime.date(2024, 12, 25)
 
